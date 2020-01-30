@@ -19,7 +19,7 @@ public class BaseTest {
         driver = new ChromeDriver();
  
         //Maximize Window
-        driver.manage().window().maximize();
+        driver.manage().window().fullscreen();
  
         //Instantiate the Page Class
         page = new Page(driver);

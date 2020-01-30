@@ -18,7 +18,7 @@ public class AccountBar extends Page {
 	@FindBy(how = How.ID, using = "topLoginLink")
 	public WebElement myAccount;
 
-	@FindBy(how = How.XPATH, using = "//*[contains(text(), 'мова')]")
+	@FindBy(how = How.XPATH, using = "//*[contains(text(), 'РјРѕРІР°')]")
 	public WebElement ukrainianLink;
 
 

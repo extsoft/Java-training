@@ -12,7 +12,7 @@ public class LoginTests extends BaseTest {
 	private String email = "terminator067067@gmail.com";
 	private String password = "My_password";
 	private String invalidPassword = "qwerty";
-	private String expectedText = "Недопустимое значение";
+	private String expectedText = "РќРµРґРѕРїСѓСЃС‚РёРјРѕРµ Р·РЅР°С‡РµРЅРёРµ";
 	
     @Test (priority = 1)
     public void LoginTest (){
